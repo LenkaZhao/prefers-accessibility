@@ -63,14 +63,6 @@ html {
 
 /* stylelint-disable media-feature-name-no-unknown */
 
-@media (prefers-color-scheme: dark) {
-
-  main {
-    background-color: #111;
-  }
-
-}
-
 @media (perfers-reduced-motion) {
 
   .gear {
@@ -78,12 +70,13 @@ html {
   }
 
 }
-/**
- * =============
- * Write your “prefers” media queries here, between these two `stylelint` comments.
 
- * Unfortunately, Markbot, is a little too old to understand them. :(
- * =============
- */
+@media (prefers-color-scheme: dark) {
+
+  main {
+    background-color: #111;
+  }
+
+}
 
 /* stylelint-enable */
