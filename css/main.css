@@ -68,9 +68,14 @@ html {
   main {
     background-color: #111;
   }
+
 }
 
 @media (perfers-reduced-motion) {
+
+  .gear {
+    animation: none;
+  }
 
 }
 /**
