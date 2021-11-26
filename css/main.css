@@ -63,7 +63,7 @@ html {
 
 /* stylelint-disable media-feature-name-no-unknown */
 
-@media (perfers-reduced-motion) {
+@media (prefers-reduced-motion) {
 
   .gear {
     animation: none;
