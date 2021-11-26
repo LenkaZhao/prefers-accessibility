@@ -73,7 +73,7 @@ html {
 
 @media (prefers-color-scheme: dark) {
 
-  main {
+  .main {
     background-color: #111;
   }
 
